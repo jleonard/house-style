@@ -28,9 +28,13 @@
 })(jQuery);
 ```
 
-* Variables should be declared before used.
+* Variables should be declared before used. Each variable should have it's own line and comment.
 
 ```javascript 
+    // Avoid
+    var currentEntry, level, size;
+    
+    // Do - Make your variables easy to read and add space for line comments.
     var currentEntry; // currently selected table entry
     var level;        // indentation level
     var size;         // size of table
