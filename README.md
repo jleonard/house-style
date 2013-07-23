@@ -28,6 +28,13 @@
 })(jQuery);
 ```
 
+* Variables should be declared before used.
+```javascript 
+    var currentEntry; // currently selected table entry
+    var level;        // indentation level
+    var size;         // size of table
+```
+
 #### Further Reading
 * http://javascript.crockford.com/code.html
 * http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
