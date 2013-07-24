@@ -24,6 +24,7 @@
 
 ```javascript
 (function($){
+  "use strict";
   // Hello, I'm an iife (Immediately Invoked Function Expression)
 })(jQuery);
 ```
