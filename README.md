@@ -2,7 +2,34 @@
 
 ## HTML
 
+### General
+
+* 2 space indentation, no tabs
+* lowercase only
+* Use elements (sometimes incorrectly called “tags”) for what they have been created for. 
+e.g. use heading elements for headings, p elements for paragraphs, a elements for anchors, etc.
+* Separate structure from presentation from behavior i.e. no inline styles, no inline javascript
+* use double quotes around attributes, not single quotes. e.g. src="images/my-image.png"
+* use IDs sparingly and correctly.  IDs may be used for specific elements that need to be targeted.  They may be used for
+their hash property in the browser (like an anchor link).
+* use classes sparingly and correctly.  Classes are meant to be re-used, so if you find yourself 
+duplicating styles for two different classes, consider consolidating the style into one class.
+
+
 ## LESS // CSS
+
+### General
+
+* 2 space indentation, no tabs
+* lowercase only
+* do not use element names in conjunction with class names
+e.g. .error{...} NOT div.error{...}
+* use only dashes to separate multi-word class/div names e.g. #my-div, .my-class
+* use single quotes around attributes e.g. background: url('images/bg.png')
+* separate sections using a section comment 
+/*navigation*/
+.nav-button{
+}
 
 ## Javascript Guidelines
 
@@ -15,7 +42,7 @@
 * Functions : camelCase
 * Variables : camelCase
 * Class Names : CapsOnEachWord
-* Constants : ALL_CAPS
+* Constants : ALL_CAPS_WITH_UNDERSCORES
 
 ### Style conventions
 
@@ -42,6 +69,7 @@
 ```
 
 #### Further Reading
+* http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 * http://javascript.crockford.com/code.html
 * http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 * http://contribute.jquery.org/style-guide/js/
