@@ -198,3 +198,5 @@ duplicating styles for two different classes, consider consolidating the style i
 * http://javascript.crockford.com/code.html
 * http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 * http://contribute.jquery.org/style-guide/js/
+* http://editorconfig.org/
+* http://markdotto.com/2011/11/29/css-property-order/
